@@ -2,6 +2,5 @@ services:
   - type: web
     name: group-trip-planner
     runtime: static
-    plan: free
     buildCommand: rm -rf site && mkdir site && unzip -o group-trip-planner.zip -d site
     staticPublishPath: ./site
